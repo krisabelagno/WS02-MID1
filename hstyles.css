@@ -4,7 +4,7 @@ margin: 0;
 }
 header{
 background-color: rgb(223,141,143); 
-padding: 150px;
+padding: 100px;
 text-align: center;
 padding-bottom: 30px;
 }
@@ -114,7 +114,7 @@ circle{
 
 h3{
 	text-align: center;
-	font-size: 33px;
+	font-size: 40px;
 	color: rgb(175,23,87);
 	font-family: Roboto, HelveticaNeue, Arial, sans-serif;
 }
@@ -201,14 +201,16 @@ padding: 40px 20px;
 background-color:rgb(211,127,140);
 }
 footer ul{
+font-size: 28px;
 text-align: center;
 }
 footer ul li{
 display: inline-block;
 margin: 0 5px;
 }
+
 .social li{
-	font-size: 25px;
+	font-size: 28px;
 	color: rgb(186,103,111);
 	width: 25px;
 	height: 20px;
@@ -216,16 +218,6 @@ margin: 0 5px;
 	display: inline-block;
 	text-align: center;
 	margin: 0 5px;
-}
-
-@media (max-width: 500px) {
-	header img {
-	transform: translate(-50%,-50%);
-}
-h1{
-	font-size: 50px;
-	text-align: center;
-}
 }
 
 square{
